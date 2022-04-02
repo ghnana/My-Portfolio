@@ -7,7 +7,7 @@
 
 a, li {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px;
     color: #5DE1E6;
     text-decoration: none;
@@ -17,6 +17,7 @@ a, li {
 header {
     display: flex;
     justify-content: flex-end;
+    letter-spacing: 5px;
     align-items: center;
     padding: 30px 10%;
     /* background-color: red; */
@@ -49,3 +50,23 @@ header {
     /* padding: 20px 20px; */
     transition: transform 1s ease-in-out;
 }
+
+
+/* container top  */
+
+.container_top {
+    text-align: center;
+    letter-spacing: 1.5em;
+    margin-top: 50px;
+    padding: 50px 50px;
+    color: #5DE1E6;
+}
+.container_top h1 {
+    font-size: 60px;
+}
+.container_top p{
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+/* svg section  */
