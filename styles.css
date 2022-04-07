@@ -54,19 +54,30 @@ header {
 
 /* container top  */
 
+/* .wrapper{
+    background-color: red;
+    height: 500px;
+} */
+
 .container_top {
     text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 50vh;
     letter-spacing: 1.5em;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 50px 50px;
-    color: #5DE1E6;
+    background-color: #5DE1E6 ;
+    color: white;
 }
 .container_top h1 {
     font-size: 60px;
+    background-color: #5DE1E6;
 }
 .container_top p{
     font-size: 24px;
     margin-top: 50px;
+    background-color: #5DE1E6;
 }
 
 /* svg section  */
